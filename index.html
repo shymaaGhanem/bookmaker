@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bookmark</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+
+            <header class="text-info">
+                <h1>Bookmarker</h1>
+            </header>
+            <hr>
+
+            <div class="container bg-c">
+                <form class="mx-auto">
+
+                    <header class="text-center">
+                        <h3>Bookmark your favorite sites</h3>
+                    </header>
+
+                    <div class="form-group">
+                        <h6 class="text-center">site name</h6>
+                        <input id="bookmakerName" class="form-control" placeholder="Booknarkname" name="productName"
+                            type="text" />
+                    </div>
+
+                    <div class="form-group">
+                        <h6 class="text-center">site url</h6>
+                        <input id="websiteurl" class="form-control" name="mydesc" placeholder="websiteUrl"
+                            type="text" />
+                    </div>
+
+                    <div class="text-center">
+                        <button onclick="add()" id="mybtn" type="button" class="btn btn-info">Submit </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="data">
+        <div class="container">
+            <div id="data-bookmaker" class="row">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <hr>
+            <p>© 2019 Bookmarker Inc.</p>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

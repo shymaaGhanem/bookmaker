@@ -1,0 +1,44 @@
+.bg-c
+{
+    background-color: rgba(209, 207, 207, 0.671);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer p
+{
+   color: rgba(170, 168, 168, 0.74);
+}
+h1
+{font-weight: bold;
+    font-size: 1.5em;
+
+}
+h3{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+h6
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-control
+{
+    width: 70%;
+    margin: auto;
+}
+.min
+{
+    display: flex;
+    justify-content:space-around; 
+    background-image: linear-gradient(#EEE,#FFF);
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.btnvisit a 
+{
+    color: #eef1f5;
+    text-decoration: none;
+    background-color: transparent;
+}
